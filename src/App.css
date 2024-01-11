@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Project {
+  background-color: #61dafb;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.SidebarToggle {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.Sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  height: 100%;
+  width: 300px;
+  background-color: #282c34;
+  transition: right 0.3s ease;
+  z-index: 1;
+}
+
+.Sidebar.open {
+  right: 0;
+}
+
+.CloseButton {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.SidebarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.SidebarContent a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.SidebarContent a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* ... (previous styles remain unchanged) */
+
+/* ... (previous styles remain unchanged) */
+
+.SidebarToggle {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.Sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  height: 100%;
+  width: 300px;
+  background-color: #282c34;
+  transition: right 0.3s ease;
+  z-index: 1;
+  padding-top: 50px; /* Added padding to ensure content doesn't overlap with the button */
+}
+
+.Sidebar.open {
+  right: 0;
+}
+
+.CloseButton {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+}
+
+.SidebarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.SidebarContent a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.SidebarContent a:hover {
+  text-decoration: underline;
+}
+
